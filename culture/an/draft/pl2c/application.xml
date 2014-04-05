@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<application name="pl2c">
+    <keywords>
+        <include file="keywords.xml"/>
+    <keywords>
+    <messages>
+        <include file="errors\os.xml"/>
+        <include file="errors\runtime.xml"/>
+        <include file="errors\translate.xml"/>
+        <include file="errors\preprocess.xml"/>
+        <include file="errors\lexical.xml"/>
+        <include file="errors\sintax.xml"/>
+        <include file="errors\parse.xml"/>
+        <include file="errors\build.xml"/>
+    </messages>
+    <translate>
+    </translate>
+</application>
