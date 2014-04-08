@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <culture>
-    <name="an/ascii"/>
-    <parent="an\draft"/>
+    <name>ea/rus/ru-en</parent>
+    <parent>ea/en</parent>
 </culture>
