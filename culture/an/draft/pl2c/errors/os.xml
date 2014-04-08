@@ -1,9 +1,5 @@
 <?xml version="1.0"?>
 <application name="pl2c">
-    <messages>
-        <message>
-        </message>
-    </messages>
-    <translate>
-    </translate>
+    <local name="os_undefined_1">Undefined error 1</local>
+    <local name="os_undefined_2"/>
 </application>

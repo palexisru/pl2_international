@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<language>
+    <include>
+        <file>url1</file>
+        <file>url2</file>
+    <include>
+    <translate>
+        <local name="undefined">неопределенное</local>
+        <local name="inpossible">невозможно</local>
+    </translate>
+<language>
