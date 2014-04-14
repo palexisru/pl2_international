@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0"  encoding="ascii"?>
 <application name="pl2c">
     <keywords>
         <include file="keywords.xml"/>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<culture>
+    <name>ea/rus/ru-ascii</parent>
+    <parent>ea/en</parent>
+    <decimal>.</decimal>
+    <direction>left-down</direction>
+</culture>
