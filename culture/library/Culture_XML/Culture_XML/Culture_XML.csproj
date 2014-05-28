@@ -41,7 +41,25 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Culture_XML_main.cs" />
+    <Compile Include="data\international.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>international.xsd</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="data\international.xsc">
+      <DependentUpon>international.xsd</DependentUpon>
+    </None>
+    <None Include="data\international.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>international.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="data\international.xss">
+      <DependentUpon>international.xsd</DependentUpon>
+    </None>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
