@@ -8,7 +8,7 @@
     <ProjectGuid>{A8149386-493C-419E-BB95-1105445B9DEA}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Culture_XML</RootNamespace>
+    <RootNamespace>pl2</RootNamespace>
     <AssemblyName>Culture_XML</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
@@ -41,14 +41,52 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Culture_XML_main.cs" />
+    <Compile Include="data\culture.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>culture.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="data\draft.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>draft.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="data\international.cs">
+      <DependentUpon>international.xsd</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
     <Compile Include="data\international.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>international.xsd</DependentUpon>
     </Compile>
+    <Compile Include="data\recurcive\draft.cs" />
+    <Compile Include="data\recurcive\international.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="data\culture.xsc">
+      <DependentUpon>culture.xsd</DependentUpon>
+    </None>
+    <None Include="data\culture.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>culture.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="data\culture.xss">
+      <DependentUpon>culture.xsd</DependentUpon>
+    </None>
+    <None Include="data\draft.xsc">
+      <DependentUpon>draft.xsd</DependentUpon>
+    </None>
+    <None Include="data\draft.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>draft.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="data\draft.xss">
+      <DependentUpon>draft.xsd</DependentUpon>
+    </None>
     <None Include="data\international.xsc">
       <DependentUpon>international.xsd</DependentUpon>
     </None>

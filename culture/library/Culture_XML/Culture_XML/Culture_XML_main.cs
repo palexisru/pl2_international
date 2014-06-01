@@ -4,7 +4,7 @@ using System.Linq;
 using System.ComponentModel;
 using System.Text;
 
-    namespace pl2
+    namespace pl2.culture
     {
         public class Culture
         {
@@ -12,13 +12,13 @@ using System.Text;
             public const string file_name = "culture.xml";
 
             [Description( "Путь к файлу с описанием культуры" ) , Category( "Default" )]
-            protected readonly string path{ get; set; };
+            protected string path{ get; set;}
 
             [Description( "Название локализации для файла" ) , Category( "Appearance" )]
-            public string locale { get; set; };
+            public string locale { get; set; }
 
             [Description( "Номер кодовой страницы для файла" ) , Category( "Appearance" )]
-            public Int32 codepage { get;};
+            public Int32 codepage { get; set;}
 
             [Description( "Массив путей к файлам описания культуры до draft" ) , Category( "Data" )]
             public string[] chain { get; set; }
@@ -42,6 +42,8 @@ using System.Text;
             [Description( "Создание описания цепочки локализации с использованием начального пути по умолчанию" ) , Category( "Data" )]
             public Culture()
             {
+                string localisation;
+                localisation = Environment.CurrentDirectory + file_name;
                 path = Environment.CurrentDirectory + "\\путь";
             }
         }

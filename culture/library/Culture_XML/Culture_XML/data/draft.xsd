@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="Draft" targetNamespace="http://tempuri.org/draft.xsd" xmlns:mstns="http://tempuri.org/draft.xsd" xmlns="http://tempuri.org/draft.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="Draft" msdata:IsDataSet="true" msdata:Locale="en" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="Draft" msprop:Generator_UserDSName="Draft">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Dictionary" msdata:Locale="en" msprop:Generator_TableClassName="DictionaryDataTable" msprop:Generator_TableVarName="tableDictionary" msprop:Generator_RowChangedName="DictionaryRowChanged" msprop:Generator_TablePropName="Dictionary" msprop:Generator_RowDeletingName="DictionaryRowDeleting" msprop:Generator_RowChangingName="DictionaryRowChanging" msprop:Generator_RowEvHandlerName="DictionaryRowChangeEventHandler" msprop:Generator_RowDeletedName="DictionaryRowDeleted" msprop:Generator_RowClassName="DictionaryRow" msprop:Generator_UserTableName="Dictionary" msprop:Generator_RowEvArgName="DictionaryRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="current" msprop:Generator_ColumnVarNameInTable="columncurrent" msprop:Generator_ColumnPropNameInRow="current" msprop:Generator_ColumnPropNameInTable="currentColumn" msprop:Generator_UserColumnName="current" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Includes" msprop:Generator_TableClassName="IncludesDataTable" msprop:Generator_TableVarName="tableIncludes" msprop:Generator_RowChangedName="IncludesRowChanged" msprop:Generator_TablePropName="Includes" msprop:Generator_RowDeletingName="IncludesRowDeleting" msprop:Generator_RowChangingName="IncludesRowChanging" msprop:Generator_RowEvHandlerName="IncludesRowChangeEventHandler" msprop:Generator_RowDeletedName="IncludesRowDeleted" msprop:Generator_RowClassName="IncludesRow" msprop:Generator_UserTableName="Includes" msprop:Generator_RowEvArgName="IncludesRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="application" msprop:Generator_ColumnVarNameInTable="columnapplication" msprop:Generator_ColumnPropNameInRow="application" msprop:Generator_ColumnPropNameInTable="applicationColumn" msprop:Generator_UserColumnName="application" type="xs:string" minOccurs="0" />
+              <xs:element name="file" msprop:Generator_ColumnVarNameInTable="columnfile" msprop:Generator_ColumnPropNameInRow="file" msprop:Generator_ColumnPropNameInTable="fileColumn" msprop:Generator_UserColumnName="file" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
