@@ -1,15 +1,16 @@
-﻿namespace pl2.data {
+﻿namespace pl2.culture.data.file
+{
 
 
-    public parass International
+    public partial class International
     {
         partial class CultureDataTable
         {
         }
     }
 }
-tial cl
-namespace pl2.data {
+
+namespace pl2.culture.data {
     
     
     public partial class International {

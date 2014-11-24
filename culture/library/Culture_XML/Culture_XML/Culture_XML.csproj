@@ -40,65 +40,75 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="culture\data\read_me.cs" />
+    <Compile Include="culture\i18n\read_me.cs" />
+    <Compile Include="culture\noo\read_me.cs" />
     <Compile Include="Culture_XML_main.cs" />
-    <Compile Include="data\culture.Designer.cs">
+    <Compile Include="culture\data\file\culture.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>culture.xsd</DependentUpon>
     </Compile>
-    <Compile Include="data\draft.Designer.cs">
+    <Compile Include="culture\data\file\draft.cs">
+      <DependentUpon>draft.xsd</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="culture\data\file\draft.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>draft.xsd</DependentUpon>
     </Compile>
-    <Compile Include="data\international.cs">
-      <DependentUpon>international.xsd</DependentUpon>
+    <Compile Include="culture\data\file\locale.cs">
+      <DependentUpon>locale.xsd</DependentUpon>
       <SubType>Component</SubType>
     </Compile>
-    <Compile Include="data\international.Designer.cs">
+    <Compile Include="culture\data\file\locale.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>international.xsd</DependentUpon>
+      <DependentUpon>locale.xsd</DependentUpon>
     </Compile>
-    <Compile Include="data\recurcive\draft.cs" />
-    <Compile Include="data\recurcive\international.cs" />
+    <Compile Include="culture\data\simple\national.cs" />
+    <Compile Include="culture\data\simple\draft.cs" />
+    <Compile Include="culture\data\recurcive\files.cs" />
+    <Compile Include="culture\data\recurcive\international.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="data\culture.xsc">
+    <None Include="culture\data\file\culture.xsc">
       <DependentUpon>culture.xsd</DependentUpon>
     </None>
-    <None Include="data\culture.xsd">
+    <None Include="culture\data\file\culture.xsd">
       <SubType>Designer</SubType>
       <Generator>MSDataSetGenerator</Generator>
       <LastGenOutput>culture.Designer.cs</LastGenOutput>
     </None>
-    <None Include="data\culture.xss">
+    <None Include="culture\data\file\culture.xss">
       <DependentUpon>culture.xsd</DependentUpon>
     </None>
-    <None Include="data\draft.xsc">
+    <None Include="culture\data\file\draft.xsc">
       <DependentUpon>draft.xsd</DependentUpon>
     </None>
-    <None Include="data\draft.xsd">
+    <None Include="culture\data\file\draft.xsd">
       <SubType>Designer</SubType>
       <Generator>MSDataSetGenerator</Generator>
       <LastGenOutput>draft.Designer.cs</LastGenOutput>
     </None>
-    <None Include="data\draft.xss">
+    <None Include="culture\data\file\draft.xss">
       <DependentUpon>draft.xsd</DependentUpon>
     </None>
-    <None Include="data\international.xsc">
-      <DependentUpon>international.xsd</DependentUpon>
+    <None Include="culture\data\file\locale.xsc">
+      <DependentUpon>locale.xsd</DependentUpon>
     </None>
-    <None Include="data\international.xsd">
+    <None Include="culture\data\file\locale.xsd">
       <SubType>Designer</SubType>
       <Generator>MSDataSetGenerator</Generator>
-      <LastGenOutput>international.Designer.cs</LastGenOutput>
+      <LastGenOutput>locale.Designer.cs</LastGenOutput>
     </None>
-    <None Include="data\international.xss">
-      <DependentUpon>international.xsd</DependentUpon>
+    <None Include="culture\data\file\locale.xss">
+      <DependentUpon>locale.xsd</DependentUpon>
     </None>
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

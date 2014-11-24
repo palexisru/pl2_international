@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace PL2.Language.Culture
+namespace pl2.culture
     {
     class Culture
         {

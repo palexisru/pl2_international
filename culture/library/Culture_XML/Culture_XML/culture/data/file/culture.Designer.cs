@@ -10,7 +10,7 @@
 
 #pragma warning disable 1591
 
-namespace pl2.data {
+namespace pl2.culture.data.file {
     
     
     /// <summary>

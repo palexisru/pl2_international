@@ -8,7 +8,7 @@
     <ProjectGuid>{5DDD4305-C880-429A-A2AA-34E2F46D6D8F}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>culture</RootNamespace>
+    <RootNamespace>pl2.culture</RootNamespace>
     <AssemblyName>culture</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <TargetFrameworkProfile>Client</TargetFrameworkProfile>
