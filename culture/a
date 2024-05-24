@@ -1,0 +1,38 @@
+
+
+
+
+
+        Abstraction_KW,
+        Algorithm_KW,
+        Arrow_KW,
+        Case_KW,
+        Class_KW,
+        Decision_KW,
+        Diagram_KW,
+        Else_KW,
+        Enum_KW,
+        For_KW,
+        From_KW,
+        If_KW,
+        Int_KW,
+        Interface_KW,
+        Internal_KW,
+        Loop_KW,
+        Next_KW,
+        None_KW = 0,
+        null=Null_KW
+        Private_KW,
+        Program_KW,
+        Protected_KW,
+        Public_KW,
+        Real_KW,
+        Return_KW,
+        Rule_KW
+        String_KW,
+        Switch_KW,
+        Unit_KW,
+        Where_KW,
+        While_KW,
+source=draft
+target=ascii
